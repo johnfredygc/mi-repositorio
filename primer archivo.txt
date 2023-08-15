@@ -1,0 +1,11 @@
+Pasos para hacer uso de git hub
+
+git init / para inicializar
+git status / para verificar 
+git add primer\ archivo.txt / para agregar el archivo a la siguiente versión
+git status / para verificar / volvemos y verificamos
+git commit -m "Nombre de la nueva versión" / con esto hacemos commit al archivo para guardar la versión
+git log / para ver los commit generados
+git add . / para agregar todos los archivos a la siguiente versión
+
+git checkout fgfhdhddh = codigo que entrega git/ con esto podemos verificar la entrega realizada anteriormente con el codigo que nos entrego git log
