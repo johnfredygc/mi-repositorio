@@ -1,5 +1,7 @@
 Pasos para hacer uso de git hub
 
+Se crea la carpeta y el archivo dentro de ella
+
 git init / para inicializar
 git status / para verificar 
 git add primer\ archivo.txt / para agregar el archivo a la siguiente versión
@@ -11,4 +13,5 @@ git push -u origin main / para subir el repositorio y se pueda visualizar en Git
 
 git checkout fgfhdhddh = codigo que entrega git/ con esto podemos verificar la entrega realizada anteriormente con el codigo que nos entrego git log
 
+git clone httP.... / para descargar el repositorio de git hup
 Termino ejercicio
