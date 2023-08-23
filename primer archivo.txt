@@ -14,4 +14,5 @@ git push -u origin main / para subir el repositorio y se pueda visualizar en Git
 git checkout fgfhdhddh = codigo que entrega git/ con esto podemos verificar la entrega realizada anteriormente con el codigo que nos entrego git log
 
 git clone httP.... / para descargar el repositorio de git hup
+
 Termino ejercicio
