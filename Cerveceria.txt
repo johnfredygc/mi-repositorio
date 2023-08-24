@@ -1,0 +1,43 @@
+create database cerveceria;
+
+use cerveceria;
+
+create table categoria(
+    -> id_categoria int primary key auto_increment,
+    -> nombre_categoria varchar(20) not null);
+
+create table cerveza(
+    -> id_cerveza int primary key auto_increment,
+    -> nombre_cerveza varchar(20) not null,
+    -> id_categoria int not null);
+
+create table materia_prima(
+    -> id_materia_prima int primary key auto_increment,
+    -> nombre_materia_prima varchar(20));
+
+create table cerveza_materia_prima(
+    -> id_cerveza int not null,
+    -> id_materia_prima int not null);
+
+create table tipo_categoria(
+    -> id_tipo_categoria int primary key auto_increment,
+    -> nombre_tipo_categoria varchar(20));
+
+create table categoria_tipo_categoria(
+    -> id_categoria int not null,
+    -> id_tipo_categoria int not null);
+
+alter table cerveza_materia_prima add foreign key (id_cerveza)
+references cerveza (id_cerveza);
+
+alter table cerveza_materia_prima add foreign key (id_materia_prima) 
+references materia_prima (id_materia_prima);
+
+alter table cerveza add foreign key (id_categoria) 
+references categoria (id_categoria);
+
+alter table categoria_tipo_categoria add foreign key (id_categoria) 
+references categoria (id_categoria);
+
+alter table categoria_tipo_categoria add foreign key (id_tipo_categoria) 
+references tipo_categoria (id_tipo_categoria);
