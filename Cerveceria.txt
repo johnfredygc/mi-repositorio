@@ -100,3 +100,33 @@ insert into cerveza (nombre_cerveza, id_categoria) values ('corona', 1);
 insert into cerveza (nombre_cerveza, id_categoria) values ('bbc', 1);
 
 insert into cerveza (nombre_cerveza, id_categoria) values ('tatacoa', 2);
+
+insert into materia_prima (nombre_materia_prima) values ('agua');
+
+insert into materia_prima (nombre_materia_prima) values ('malta');
+
+insert into materia_prima (nombre_materia_prima) values ('lupulo');
+
+insert into materia_prima (nombre_materia_prima) values ('luvadura');
+
+insert into cerveza_materia_prima (id_cerveza, id_materia_prima) values (1, 1);
+
+insert into cerveza_materia_prima (id_cerveza, id_materia_prima) values (2, 1);
+
+insert into cerveza_materia_prima (id_cerveza, id_materia_prima) values (3, 1);
+
+insert into cerveza_materia_prima (id_cerveza, id_materia_prima) values (4, 1);
+
+insert into cerveza_materia_prima (id_cerveza, id_materia_prima) values (5, 1);
+
+insert into cerveza_materia_prima (id_cerveza, id_materia_prima) values (6, 1);
+
+insert into cerveza_materia_prima (id_cerveza, id_materia_prima) values (7, 1);
+
+insert into cerveza_materia_prima (id_cerveza, id_materia_prima) values (8, 1);
+
+insert into cerveza_materia_prima (id_cerveza, id_materia_prima) values (9, 1);
+
+insert into cerveza_materia_prima (id_cerveza, id_materia_prima) values (1, 2), (2, 2), (3, 2), (4, 2), (5, 2), (6, 2), (7, 2), (8, 2), (9, 2);
+
+insert into cerveza_materia_prima (id_cerveza, id_materia_prima) values (1, 3), (2, 3), (3, 3), (4, 4), (5, 4), (6, 4), (7, 4), (8, 4), (9, 4);
