@@ -1,6 +1,11 @@
+
+//CREAR BASE DE DATOS
+
 create database cerveceria;
 
 use cerveceria;
+
+//CREAR TABLAS 
 
 create table categoria(
     -> id_categoria int primary key auto_increment,
@@ -41,3 +46,57 @@ references categoria (id_categoria);
 
 alter table categoria_tipo_categoria add foreign key (id_tipo_categoria) 
 references tipo_categoria (id_tipo_categoria);
+
+//INSERTAR DATOS
+
+insert into categoria (nombre_categoria) values ('lagers');
+
+insert into categoria (nombre_categoria) values ('ales');
+
+insert into tipo_categoria (nombre_tipo_categoria) values ('dark');
+
+insert into tipo_categoria (nombre_tipo_categoria) values ('pale');
+
+insert into tipo_categoria (nombre_tipo_categoria) values ('bocks');
+
+insert into tipo_categoria (nombre_tipo_categoria) values ('stouts');
+
+insert into tipo_categoria (nombre_tipo_categoria) values ('porters');
+
+insert into tipo_categoria (nombre_tipo_categoria) values ('belgians');
+
+insert into tipo_categoria (nombre_tipo_categoria) values ('sours');
+
+insert into categoria_tipo_categoria (id_categoria, id_tipo_categoria) values (1, 1);
+
+insert into categoria_tipo_categoria (id_categoria, id_tipo_categoria) values (1, 2);
+
+insert into categoria_tipo_categoria (id_categoria, id_tipo_categoria) values (1, 3);
+
+insert into categoria_tipo_categoria (id_categoria, id_tipo_categoria) values (2, 4);
+
+insert into categoria_tipo_categoria (id_categoria, id_tipo_categoria) values (2, 5);
+
+insert into categoria_tipo_categoria (id_categoria, id_tipo_categoria) values (2, 6);
+
+insert into categoria_tipo_categoria (id_categoria, id_tipo_categoria) values (2, 7);
+
+insert into categoria_tipo_categoria (id_categoria, id_tipo_categoria) values (2, 2);
+
+insert into cerveza (nombre_cerveza, id_categoria) values ('poker', 1);
+
+insert into cerveza (nombre_cerveza, id_categoria) values ('aguila', 2);
+
+insert into cerveza (nombre_cerveza, id_categoria) values ('club colombia', 1);
+
+insert into cerveza (nombre_cerveza, id_categoria) values ('costeña', 2);
+
+insert into cerveza (nombre_cerveza, id_categoria) values ('pilsen', 1);
+
+insert into cerveza (nombre_cerveza, id_categoria) values ('andina', 2);
+
+insert into cerveza (nombre_cerveza, id_categoria) values ('corona', 1);
+
+insert into cerveza (nombre_cerveza, id_categoria) values ('bbc', 1);
+
+insert into cerveza (nombre_cerveza, id_categoria) values ('tatacoa', 2);
