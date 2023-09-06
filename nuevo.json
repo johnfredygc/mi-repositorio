@@ -1,0 +1,302 @@
+{
+    "apellido": "pineda",
+    "nombre": "camilo",
+    "telefono": 320492,
+    "direccion": "calle 1 a 2"
+},
+{
+    "apellido": "perez",
+    "nombre": "elmira",
+    "telefono": 65245,
+},
+{
+    "apellido": "lopez",
+    "nombre": "alberto",
+    "direccion": "carrera 4"
+},
+{
+    "apellido": "perez",
+    "nombre": "mariana",
+    "telefono": 320492,
+    "correo": "perezmariana@hotmail.com"
+},
+{
+    "id": 23,
+    "apellido": "gomez",
+    "nombre": "martha",
+    "telefono": 320492,
+    "correo": "gomezmartha@hotmail.com"
+}
+
+[
+    {
+        "fecha": new Date(),
+        "hora": "12:00:00",
+        "cliente":
+        {
+            "nombre": "camilo",
+            "apellido": "pineda",
+            "direccion": "calle falsa 222"
+        },
+        "producto":
+            {
+                "nombre": "arroz",
+                "precio": 2000
+            }        
+    },
+    {
+        "fecha": new Date(),
+        "hora": "13:00:00",
+        "cliente":
+        {
+            "nombre": "reinaldo",
+            "apellido": "gomez",
+            "direccion": "calle 12 - 34"
+        },
+        "producto":
+            {
+                "nombre": "panela",
+                "precio": 1000
+            }        
+    },
+    {
+        "fecha": new Date(),
+        "hora": "16:00:00",
+        "cliente":
+        {
+            "nombre": "jeferson",
+            "apellido": "ortiz",
+            "direccion": "carrera 2 - 3"
+        },
+        "producto":
+            {
+                "nombre": "lenteja",
+                "precio": 3000
+            }        
+    }
+]
+
+
+[ 
+    {
+    "_id": 1,
+    "cerveza": 
+        { 
+        "nombre_cerveza": "aguila",
+        "tipo":
+            {
+            "nombre_tipo": "lager",
+            "precio": 13.4
+            },
+        "materia_prima": "1 litro de agua, 1 litro de malta, 1 lupulo"
+        },
+    "cantidad": 10
+    },
+    {
+        "_id": 2,
+        "cerveza": 
+            { 
+            "nombre_cerveza": "aguila",
+            "tipo":
+                {
+                "nombre_tipo": "ales",
+                "precio": 12.5
+                },
+            "materia_prima": "1 litro de agua, 1 litro de malta, 1 levadura"
+            },
+        "cantidad": 12
+    },
+    {
+        "_id": 3,
+        "cerveza": 
+            { 
+            "nombre_cerveza": "aguila",
+            "tipo":
+                {
+                "nombre_tipo": "ludis",
+                "precio": 15.3
+                },
+            "materia_prima": "1 litro de agua, 1 litro de malta, 1 goma"
+            },
+        "cantidad": 7
+    },
+        {
+    "_id": 4,
+    "cerveza": 
+        { 
+        "nombre_cerveza": "aguila",
+        "tipo":
+            {
+            "nombre_tipo": "lager",
+            "precio": 13.4
+            },
+        "materia_prima": "1 litro de agua, 1 litro de malta, 2 lupulo"
+        },
+    "cantidad": 10
+    },
+    {
+        "_id": 5,
+        "cerveza": 
+            { 
+            "nombre_cerveza": "aguila",
+            "tipo":
+                {
+                "nombre_tipo": "ales",
+                "precio": 12.5
+                },
+            "materia_prima": "1 litro de agua, 1 litro de malta, 2 levadura"
+            },
+        "cantidad": 12
+    },
+    {
+        "_id": 6,
+        "cerveza": 
+            { 
+            "nombre_cerveza": "aguila",
+            "tipo":
+                {
+                "nombre_tipo": "ludis",
+                "precio": 15.3
+                },
+            "materia_prima": "1 litro de agua, 1 litro de malta, 2 goma"
+            },
+        "cantidad": 7
+    },
+    {
+        "_id": 7,
+        "cerveza": 
+            { 
+            "nombre_cerveza": "poker",
+            "tipo":
+                {
+                "nombre_tipo": "lager",
+                "precio": 13.4
+                },
+            "materia_prima": "1 litro de agua, 1 litro de malta, 3 lupulo"
+            },
+        "cantidad": 16
+    },
+    {
+        "_id": 8,
+        "cerveza": 
+            { 
+            "nombre_cerveza": "poker",
+            "tipo":
+                {
+                "nombre_tipo": "ales",
+                "precio": 12.5
+                },
+            "materia_prima": "1 litro de agua, 1 litro de malta, 3 levadura"
+            },
+        "cantidad": 23
+    },
+    {
+        "_id": 9,
+        "cerveza": 
+            { 
+            "nombre_cerveza": "poker",
+            "tipo":
+                {
+                "nombre_tipo": "ludis",
+                "precio": 15.3
+                },
+            "materia_prima": "1 litro de agua, 1 litro de malta, 3 goma"
+            },
+        "cantidad": 5
+    }
+]
+
+[
+    {
+    "_id": 101,
+    "materia_prima": "agua",
+    "cantidad_comprada": 50,
+    "cantidad_gastada": 12,
+    "cantidad_restante": 38
+    },
+    {
+    "_id": 102,
+    "materia_prima": "malta",
+    "cantidad": 60,
+    "cantidad_gastada": 12,
+    "cantidad_restante": 48
+    },
+    {
+    "_id": 103,
+    "materia_prima": "lupulo",
+    "cantidad": 110,
+    "cantidad_gastada": 6,
+    "cantidad_restante": 104
+    },
+    {
+    "_id": 104,
+    "materia_prima": "levadura",
+    "cantidad": 25,
+    "cantidad_gastada": 7,
+    "cantidad_restante": 18
+    },
+    {
+    "_id": 105,
+    "materia_prima": "goma",
+    "cantidad": 30,
+    "cantidad_gastada": 12,
+    "cantidad_restante": 18
+    }
+]
+
+[
+    {
+        "_id": 5001,
+        "id_cerveza": 1,
+        "cantidad_vendida": 1,
+        "precio_venta": 13.4 
+    },
+    {
+        "_id": 5002,
+        "id_cerveza": 2,
+        "cantidad_vendida": 2,
+        "precio_venta": 25  
+    },
+    {
+        "_id": 5003,
+        "id_cerveza": 3,
+        "cantidad_vendida": 1,
+        "precio_venta": 15.3 
+    },
+    {
+        "_id": 5004,
+        "id_cerveza": 4,
+        "cantidad_vendida": 1,
+        "precio_venta": 13.4 
+    },
+    {
+        "_id": 5005,
+        "id_cerveza": 5,
+        "cantidad_vendida": 1,
+        "precio_venta": 12.5 
+    },
+    {
+        "_id": 5006,
+        "id_cerveza": 6,
+        "cantidad_vendida": 1,
+        "precio_venta": 15.3 
+    },
+    {
+        "_id": 5007,
+        "id_cerveza": 7,
+        "cantidad_vendida": 1,
+        "precio_venta": 13.4 
+    },
+    {
+        "_id": 5008,
+        "id_cerveza": 8,
+        "cantidad_vendida": 1,
+        "precio_venta": 12.5 
+    },
+    {
+        "_id": 5009,
+        "id_cerveza": 9,
+        "cantidad_vendida": 3,
+        "precio_venta": 45.9  
+    }
+]

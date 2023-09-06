@@ -1,0 +1,54 @@
+[{
+  "_id": 5001,
+  "id_cerveza": 1,
+  "cantidad_vendida": 1,
+  "precio_venta": 13.4
+},
+{
+  "_id": 5002,
+  "id_cerveza": 2,
+  "cantidad_vendida": 2,
+  "precio_venta": 25
+},
+{
+  "_id": 5003,
+  "id_cerveza": 3,
+  "cantidad_vendida": 1,
+  "precio_venta": 15.3
+},
+{
+  "_id": 5004,
+  "id_cerveza": 4,
+  "cantidad_vendida": 1,
+  "precio_venta": 13.4
+},
+{
+  "_id": 5005,
+  "id_cerveza": 5,
+  "cantidad_vendida": 1,
+  "precio_venta": 12.5
+},
+{
+  "_id": 5006,
+  "id_cerveza": 6,
+  "cantidad_vendida": 1,
+  "precio_venta": 15.3
+},
+{
+  "_id": 5007,
+  "id_cerveza": 7,
+  "cantidad_vendida": 1,
+  "precio_venta": 13.4
+},
+{
+  "_id": 5008,
+  "id_cerveza": 8,
+  "cantidad_vendida": 1,
+  "precio_venta": 12.5
+},
+{
+  "_id": 5009,
+  "id_cerveza": 9,
+  "cantidad_vendida": 3,
+  "precio_venta": 45.9
+}]
